@@ -1,0 +1,135 @@
+.container{
+width:100%;
+height:130%;
+background-image:url(parti.jpg);
+}
+.menu ul{
+display:inline-flex; 
+}
+.menu ul li{
+list-style:none; 
+margin:0 30px;
+color:red;
+cursor:pointer; 
+}
+.logo img{
+width:30px;
+margin-top:-4px;
+margin-right:60px;
+}
+.active{
+color:yellow !important;
+}
+ax{
+color:green ;
+}
+.signup-btn{
+top:40px;
+right:80px;
+color:white;
+border:2px solid transparent;
+border-radius: 20px;
+background-image:linear-gradient(red,green),
+radial-gradient(circle at top left, yellow,white);
+background-clip:content-box,border-bor;
+}
+.signup-btn span{
+padding: 8px 22px;
+}
+.banner{
+position:absolute;
+height:80%;
+width:80%;
+top:25%;
+right:130px;
+float:center;
+}
+.app-text{
+width:50%;
+}
+.app-text h1{
+margin-left:80px;
+}
+.app-text p{
+opacity:0.5;
+margin-left:80px;
+}
+.app-picture{
+width:50%;
+float:right;
+}
+.app-picture img{
+width:80%;
+margin-top:-300px;
+padding-left:50px;
+}
+.play-btn{
+margin-left:96px;
+display:inline-flex;
+}
+.play-btn-inner{
+height:50px;
+width:50px;
+border:2px solid transparent;
+border-radius: 200%;
+background-image:linear-gradient(white,green),
+radial-gradient(circle at top left, yellow,white);
+background-clip:content-box,border-bor;
+}
+.play-btn-inner .fa{
+cursor:pointer;
+font-size:13px;
+padding:18px;
+}
+small{
+display:inline-flex; 
+padding:18px;
+}
+.quick-links{
+bottom:-90;
+left:0;
+height:20%;
+margin-left:34px;
+margin:top:22%;
+position:absolute;
+background:linear-gradient(to right, green,white);
+}
+
+.quick-links ul{
+display:inline-flex; 
+
+margin:33px auto;
+}
+.quick-links ul li{
+list-style:none; 
+margin: 0 25px;
+color:white;
+cursor:pointer; 
+}
+.quick-links ul li .fa{
+font-size:25px;
+color:white;
+}
+.social-icons{
+right:72px;
+bottom:55px;
+padding:absolute;
+bottom:0;
+right:0;
+float:right;
+margin-top:320px;
+}
+.social-icons ul{
+margin:85px;
+}
+.social-icons ul li{
+list-style:none;
+margin-top:8px;
+text-allign:center;
+border-radius:20%;
+border:1px solid black;
+padding:5px;
+}
+.social-icons ul li .fa{
+color:green;
+}

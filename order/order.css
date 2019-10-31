@@ -1,0 +1,68 @@
+body{
+background:url('nature.jpg')no-repeat;
+background-size: cover;
+<!-- to cover the image in screen-->
+color:white;
+}
+header{
+background-color:transparent;
+display:inline-block;
+width:1366px;
+}
+h1{
+font-size:48px;
+display:inline-block;
+}
+h1:hover{
+background-color:grey;
+}
+ul{
+margin:0px;
+padding:0px;
+list-style:none;
+<!-- to remove bullets-->
+}
+ul li{
+float:left;
+height:40px;
+line-height:40px;
+opacity:.5px;
+font-size:28px;
+background-color:transparent;
+text-align:center;
+width:250px;
+<!-- main one-->
+margin-left:2px;
+}
+ul li a{
+text-decoration:none;
+<!--to display lines same-->
+color:white;
+display:block;
+}
+ul li a:hover {
+background-color:green;
+}
+ul li ul li {
+display:none;
+<!--- to hide the given data-->
+}
+ul li:hover ul li{
+display:inline-block;
+<!-- to show the hidden data-->
+}
+google{
+font-size:47px;
+}
+sp{
+color:blue;}
+ar{
+color:green;}
+ki{
+color:white;}
+ng{
+color:red;}
+ly{
+color:gold;}
+is{
+color:lightgreen;}

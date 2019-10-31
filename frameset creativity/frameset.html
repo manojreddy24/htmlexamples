@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>
+parallax
+</title>
+</head>
+<style>
+body{
+margin:0;
+padding:0;
+}
+#box1{
+height:140vh;
+width:100%;
+background-image:url(thor.jpg);
+background-size:cover;
+background-attachment:fixed;
+
+}
+#box2{
+height:140vh;<!--amazing vh-->
+width:100%;
+background-image:url(lions.jpg);
+background-size:cover;
+background-attachment:fixed;
+
+}
+#box3{
+height:140vh;
+width:100%;
+background-image:url(cat.jpg);
+background-size:cover;
+background-attachment:fixed;
+}
+h1{
+font-family:arial black;
+font-size:50px;
+color:white;
+margin:0px; 
+text-align: center;
+}
+#linear
+{
+width:100vw;
+height:50vh;
+background-image:linear-gradient(red,blue,green,black);
+}
+#circular
+{
+width:100vw;
+height:50vh;
+background-image:radial-gradient(red,blue,green,black);
+}
+#repeating
+{
+width:100vw;
+height:50vh;
+background-image:repeating-linear-gradient(red,red 16px,blue 10px,blue,black);
+}
+.slider{
+background-color:green;
+width:800px;
+height:400px;
+background: url(google.jpg);
+margin:100px auto;
+animation: slide 10s infinite ;
+}
+@keyframes slide{
+25%{
+background:url(cybrary.jpg);
+}
+50%{
+background:url(dell.jpg);
+}
+75%{
+background:url(udemy.jpg);
+}
+100%{
+background:url(yts.jpg);
+}}
+</style>
+<body>
+<div id= "box1">
+<h1>daft creation</h1>
+</div> 
+<div id= "box2">
+<h1>daft creation</h1>
+</div> 
+<div id= "box3">
+<h1>daft creation</h1>
+</div> 
+<div id= "linear">
+<h1> hii helo this is
+linear</h1></div>
+<div id= "circular">
+<h1>haha this is circular</h1>
+</div>
+<div id= repeating>
+<h1>repeating gradients</h1>
+</div>
+<br>
+<br>
+<sli>
+<div class="slider">
+</div>
+</sli>
+</body>
+</html>
